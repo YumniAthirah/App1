@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Assignment1",
+            "request": "launch",
+            "mainClass": "Assignment1.Assignment1",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
             "name": "Assingment1",
             "request": "launch",
             "mainClass": "Assingment1.Assingment1",
