@@ -1,27 +1,26 @@
+import lesson1.*;
+
 public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World. " + args[0] + " " + args[1]);
-        second();
-        SecondClass secondClass = new SecondClass();
-        secondClass.second();
-        if(args[1].equals("Mar")){
-            SecondClass.third();
-        }
+    public static void main(String[] args){
+        lesson2();        
     }
 
-    public static void second(){
-        System.out.println("second");
+    public static void lesson2() {
+        int numberOfVessels = 15;
+        int[] dimension = {2,4,7};
+        IntegerHandler integerHandler = new IntegerHandler
+        (numberOfVessels, dimension);
+        int volume = integerHandler.getTotalVolume();
+        String msg = integerHandler.toString();
+        System.out.println(msg);
+        System.out.println(volume);
         
     }
-}
 
-class SecondClass{
-
-    void second(){
-        System.out.println("second in a class");
-    }
-
-    static void third(){
-        System.out.println("third in a class");
+    public static void lesson1(){
+        StringHandler stringHandler = new StringHandler("my class");
+        System.out.println(stringHandler.toString());
+        stringHandler.setStr("my new class");
+        System.out.println(stringHandler.toString());
     }
 }

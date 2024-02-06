@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Assingment1",
+            "request": "launch",
+            "mainClass": "Assingment1.Assingment1",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Q16",
+            "request": "launch",
+            "mainClass": "lesson1.quiz1.question16.Q16",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Q17",
+            "request": "launch",
+            "mainClass": "lesson1.quiz1.question17.Q17",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Q5",
+            "request": "launch",
+            "mainClass": "lesson1.quiz1.question5.Q5",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Q4",
+            "request": "launch",
+            "mainClass": "lesson1.quiz1.question4.Q4",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "lesson1.quiz1.question1.Q1",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Q20",
+            "request": "launch",
+            "mainClass": "lesson1.quiz1.question20.Q20",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Q11",
+            "request": "launch",
+            "mainClass": "lesson1.quiz1.question11.Q11",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Q2",
+            "request": "launch",
+            "mainClass": "lesson1.quiz1.question2.Q2",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -15,8 +85,9 @@
             "name": "App",
             "request": "launch",
             "mainClass": "App",
-            "args":[
-                "Feb", "24"
+            "args": [
+                "Feb",
+                "24"
             ],
             "projectName": "App1_4615083"
         }
