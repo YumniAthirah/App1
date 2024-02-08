@@ -5,7 +5,8 @@ public class Q2 {
     int i2 = 20;
 
     int add(){
-        return this.i1 + this.i2;
+        //return this.i1 + this.i2;
+        return i1 + this.i2;
     }
 
     public static void main(String[] args){
