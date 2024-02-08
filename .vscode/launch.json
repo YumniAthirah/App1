@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "A2FindMedian",
+            "request": "launch",
+            "mainClass": "Assignment.A2FindMedian",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "A2FindMod",
+            "request": "launch",
+            "mainClass": "Assignment.A2FindMod",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Assignment2",
+            "request": "launch",
+            "mainClass": "Assignment.Assignment2",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "MatrixPower",
+            "request": "launch",
+            "mainClass": "lesson3.MatrixPower",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "MultiDimensionalArray",
+            "request": "launch",
+            "mainClass": "lesson3.MultiDimensionalArray",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "lesson3.SelectionSort",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "sequenceSearch",
+            "request": "launch",
+            "mainClass": "lesson3.sequenceSearch",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "seqSearch",
+            "request": "launch",
+            "mainClass": "lesson3.seqSearch",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "GenRandomArray",
+            "request": "launch",
+            "mainClass": "lesson3.GenRandomArray",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "ArrayFunction",
+            "request": "launch",
+            "mainClass": "lesson3.ArrayFunction",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
             "name": "ArrayListStringManipulator",
             "request": "launch",
             "mainClass": "lesson3.ArrayListStringManipulator",
