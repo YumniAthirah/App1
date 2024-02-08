@@ -16,7 +16,7 @@ public class GenRandomArray {
     public static int[] genRandomIntArray(int length, int min, int max){ //generate random numbers based on the length, min and max
         int [] arr = new int[length];                                    //declare an array named arr with (length) elements
         for (int i = 0; i < length; i++){                                //to generate only (length) elements
-            arr[i] = (int) Math.round(Math.random() * (max - min));      //to generate random (whole) numbers but in the range of min-max  
+            arr[i] = (int) Math.round(Math.random() * (max - min) + min);      //to generate random (whole) numbers but in the range of min-max  
             // 0 1 => e.g. 0.534 
         }
         return arr;

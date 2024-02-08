@@ -28,7 +28,7 @@ public class Assignment2 {
 
             // Sort the array
             System.out.println("\nArray sorted ascendingly:");
-            selectionSort(randoms, true); // descending
+            selectionSort(randoms, true); 
             System.out.println(Arrays.toString(randoms));
 
             // Find mean
@@ -61,7 +61,7 @@ public class Assignment2 {
 
         int[] arr = new int[length];
         for (int i = 0; i < length; i++) {
-            arr[i] = (int) Math.round(Math.random() * (max - min));
+            arr[i] = (int) Math.round(Math.random() * (max - min) + min);
         }
         return arr;
     }

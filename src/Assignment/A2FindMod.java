@@ -2,11 +2,23 @@ package Assignment;
 
 public class A2FindMod {
     public static void main(String[] args) {
-        int[] randoms = { 5, 23, 23, 23, 32, 32, 54 };
+        int[] randoms = { 5, 23, 23, 23, 32, 32, 54 };  //23
+        int[] randoms2 = { 5, 8, 23, 23, 32, 32, 54 };  //23 and 32
+        int[] randoms3 = { 5, 8, 10, 23, 32, 42, 54 };  //none
 
         System.out.print("\nmod:");
         int mod = arrayMod(randoms);
         System.out.print(mod);
+
+        System.out.print("\nmod2:");
+        int mod2 = arrayMod(randoms2);
+        System.out.print(mod2);
+        
+        System.out.print("\nmod3:");
+        int mod3 = arrayMod(randoms3);
+        System.out.print(mod3);
+
+        
 
     }
 
