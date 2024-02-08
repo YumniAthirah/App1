@@ -42,6 +42,10 @@ public class A2FindMod {
             }
         }
 
+        if(maxCount == 1){
+            mod = -1;
+        }
+
         return mod;
     }
 }
