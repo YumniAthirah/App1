@@ -3,7 +3,7 @@ package lesson3;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
-public class ExcceptionHandling {
+public class ExceptionHandling {
     public static void main(String[] args) {
         try {
             // Code that might throw an exception

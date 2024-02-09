@@ -6,6 +6,118 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LogHelper",
+            "request": "launch",
+            "mainClass": "lesson4.quiz2.question16.LogHelper",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test13",
+            "request": "launch",
+            "mainClass": "lesson4.quiz2.Test13",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test12",
+            "request": "launch",
+            "mainClass": "lesson4.quiz2.Test12",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test11",
+            "request": "launch",
+            "mainClass": "lesson4.quiz2.Test11",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test10",
+            "request": "launch",
+            "mainClass": "lesson4.quiz2.Test10",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test9",
+            "request": "launch",
+            "mainClass": "lesson4.quiz2.Test9",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "lesson4.quiz2.question8.Test",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "lesson4.quiz2.question6.Test",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "lesson4.quiz2.question4.Test",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "lesson4.quiz2.question3.Test",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "lesson4.quiz2.question2.Test",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "lesson4.quiz2.question1.Test",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "LoggerMain",
+            "request": "launch",
+            "mainClass": "lesson4.SingletonClass.LoggerMain",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "PersonMain",
+            "request": "launch",
+            "mainClass": "lesson4.POJOClass.PersonMain",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "LoggerMain",
+            "request": "launch",
+            "mainClass": "lesson4.POJOClass.LoggerMain",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson4.Main",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
             "name": "ExceptionEx",
             "request": "launch",
             "mainClass": "lesson3.ExceptionEx",
