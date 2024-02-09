@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
 public class ExceptionHandling {
-    public static void main(String[] args) {
+    /* public static void main(String[] args) {
         try {
             // Code that might throw an exception
             FileInputStream file = new FileInputStream("myfile.txt");
@@ -17,5 +17,5 @@ public class ExceptionHandling {
             System.out.println("Finally block executed.");
         }
     }
-
+ */
 }

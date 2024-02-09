@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestStudent",
+            "request": "launch",
+            "mainClass": "Assignment.Assignment3.A1Encapsulation.TestStudent",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "InnerClassMain",
+            "request": "launch",
+            "mainClass": "lesson4.Q6InnerClass.InnerClassMain",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "PersonMain",
+            "request": "launch",
+            "mainClass": "lesson4.Q5POJOClass.PersonMain",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "LoggerMain",
+            "request": "launch",
+            "mainClass": "lesson4.Q4SingletonClass.LoggerMain",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "FinalClassMain",
+            "request": "launch",
+            "mainClass": "lesson4.Q3FinalClass.FinalClassMain",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "AbstractClassMain",
+            "request": "launch",
+            "mainClass": "lesson4.Q2AbtractClass.AbstractClassMain",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "MathUtilsMain",
+            "request": "launch",
+            "mainClass": "lesson4.Q1StaticClass.MathUtilsMain",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
             "name": "LogHelper",
             "request": "launch",
             "mainClass": "lesson4.quiz2.question16.LogHelper",
