@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CalculatorMainDraft",
+            "request": "launch",
+            "mainClass": "lesson4.Q7JavaSignature.CalculatorMainDraft",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "CalculatorMain",
+            "request": "launch",
+            "mainClass": "lesson4.Q7JavaSignature.CalculatorMain",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "A4TestShape",
+            "request": "launch",
+            "mainClass": "Assignment.Assignment3.A4Polymorphism.A4TestShape",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "A2AnimalMain",
+            "request": "launch",
+            "mainClass": "Assignment.Assignment3.A2Inheritance.A2AnimalMain",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "A3ShapeMain",
+            "request": "launch",
+            "mainClass": "Assignment.Assignment3.A3Assignment.A3ShapeMain",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
             "name": "TestStudent",
             "request": "launch",
             "mainClass": "Assignment.Assignment3.A1Encapsulation.TestStudent",

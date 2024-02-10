@@ -1,18 +1,16 @@
-package lesson4.Q2AbtractClass;
+package Assignment.Assignment3.A4Polymorphism;
 
-public class Rectangle extends Shape {
+public class A4Rectangle extends A4Shape{
     private double length;
     private double width;
 
-    public Rectangle(double length, double width) {
+    public A4Rectangle(double length, double width){
         this.length = length;
         this.width = width;
     }
-
     @Override
-    public double calculateArea() {
+    public double area(){
         return length * width;
     }
+
 }
-
-

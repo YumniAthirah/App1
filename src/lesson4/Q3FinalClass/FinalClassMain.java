@@ -1,8 +1,5 @@
 package lesson4.Q3FinalClass;
 
-
-
-
 public class FinalClassMain {
     public static void main(String[] args) {
         Circle circle = new Circle(5);

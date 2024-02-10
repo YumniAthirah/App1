@@ -1,6 +1,9 @@
 package Assignment.Assignment3.A4Polymorphism;
 
-public class TestShape {
+public class A4Shape {    
+    public double area(){
+        return 0;
+    }
     
 }
 

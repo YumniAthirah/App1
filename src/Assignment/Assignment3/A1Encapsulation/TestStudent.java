@@ -1,7 +1,5 @@
 package Assignment.Assignment3.A1Encapsulation;
 
-import lesson4.Q5POJOClass.Person;
-
 public class TestStudent {
     public static void main(String[] args) {
         Student student = new Student();

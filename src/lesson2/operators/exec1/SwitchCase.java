@@ -4,17 +4,21 @@ import java.util.Scanner;
 
 public class SwitchCase {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the day abbr: ");
-        String str = sc.nextLine();
-        sc.close();
+        String str = scanner.nextLine();
+        System.out.println("switch: " + switchCase(str));
+        scanner.close();
     }
 
-    /* static String switchCase(String day) {
+    static String switchCase(String day) {
         String ret = "";
         switch (day) {
-            case "m":
-                ret = "Monday";
+            case "m": case "mon": case "md" :
+                if (day.contains("md")){
+                    ret = "day Monday";
+                }
+                else ret = "Monday";
                 break;
             case "tu":
                 ret = "Tuesday";
@@ -22,10 +26,15 @@ public class SwitchCase {
             case "w":
                 ret = "Wednesday";
                 break;
+            case "th":
+                ret = "Thursday";
+                break;
             default:
                 ret = "Undefined";
                 break;
         }
 
-    } */
+        return ret;
+
+    }
 }
