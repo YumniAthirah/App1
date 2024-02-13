@@ -1,7 +1,7 @@
 package lesson3;
 
 import java.util.ArrayList;
-import java.util.Collections;
+//import java.util.Collections;
 
 public class ArrayListManipulator {
     private ArrayList<Integer> arrayList;

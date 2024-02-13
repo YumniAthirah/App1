@@ -11,3 +11,5 @@ public class FinalClassMain {
 // appropriate when you have a class that should not have any subclasses or when you want to ensure
 // that the behavior of the class remains consistent and cannot be changed by subclasses.
 
+//opposite to abtract class
+//i.e game rules, when you dont want anything change it or overrride it

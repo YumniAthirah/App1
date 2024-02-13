@@ -12,3 +12,5 @@ public class A4TestShape {
         
     }
 }
+
+//polymorphism 

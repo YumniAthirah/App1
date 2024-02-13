@@ -33,3 +33,8 @@ public class Student {
         this.rollNumber = rollNumber;
     }
 }
+
+//encapsulaton = public private protected
+//to make sure when changing name, age etc, 
+//we make the variable private then create getter setter to 
+//check the vaue whether its int or string etc

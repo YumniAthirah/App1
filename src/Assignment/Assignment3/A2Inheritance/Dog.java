@@ -11,3 +11,6 @@ public class Dog extends Animal{
         System.out.println("Bark");
     }
 }
+
+//super(name, "Bark") call in the Dog constructor is to make sure 
+//that the superclass Animal is properly initialized with the name and sound of the dog

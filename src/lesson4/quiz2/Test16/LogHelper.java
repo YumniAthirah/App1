@@ -1,4 +1,4 @@
-package lesson4.quiz2.question16;
+package lesson4.quiz2.Test16;
 
 abstract class Helper {
     int num = 100;
@@ -11,7 +11,7 @@ abstract class Helper {
     }
 }
 
-public class LogHelper extends Helper{
+/* public class LogHelper extends Helper{
     private int num = 200;
     protected String operation = "LOGGING";
 
@@ -27,4 +27,4 @@ public class LogHelper extends Helper{
         new LogHelper().help();
     }
     
-}
+} */

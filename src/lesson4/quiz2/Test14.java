@@ -41,7 +41,7 @@ public class Test14 {
         list.add(new Employee("Jack", 19, 5000));
         list.add(new Employee("Liya", 20, 8000));
 
-        process(list, e - > e.getAge() > 20);;
+        process(list, e -> e.getAge() > 20);;
     }
 
     private static void process(List<Employee> list, Predicate<Employee> predicate){

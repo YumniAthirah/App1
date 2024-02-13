@@ -20,7 +20,5 @@ public class PersonMain {
 // to represent data objects in the application. They are appropriate when you need to model data with
 // attributes but do not require any specific functionality or behavior beyond accessing and modifying
 // those attributes.
-
-
 // the entire application, such as logging, configuration settings, database connections, etc.
 

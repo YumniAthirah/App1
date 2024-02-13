@@ -12,4 +12,16 @@ public class Outer {
             return name;
         }
     }
+
+    class Inner2 {
+        private String name;
+        
+        public Inner2(String name) {
+            this.name = name;
+        }
+        
+        public String getName() {
+            return name;
+        }
+    }
 }

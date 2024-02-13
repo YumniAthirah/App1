@@ -25,3 +25,5 @@ public class Logger {
     }
 }
 
+//void = no return
+

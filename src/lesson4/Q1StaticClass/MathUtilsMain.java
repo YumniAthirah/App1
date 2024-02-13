@@ -10,6 +10,10 @@ public class MathUtilsMain {
             System.out.println(number + " is even.");
         else
             System.out.println(number + " is odd.");
+
+            //non static, cannot access method without going to the instructor
+            NonStaticMathUtils nonStaticMathUtils = new NonStaticMathUtils();   
+            nonStaticMathUtils.add(3, 2);
     }
 }
 

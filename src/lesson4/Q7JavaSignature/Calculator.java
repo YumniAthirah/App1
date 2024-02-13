@@ -30,9 +30,7 @@ public class Calculator {
     //find average of three floating-point numbers
     public double average(double a, double b, double c){
         return (a + b + c) / 3;
-    }
-
-    
-
-
+    }   
 }
+
+//overloading method
