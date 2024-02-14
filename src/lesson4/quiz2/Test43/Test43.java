@@ -6,6 +6,7 @@ public class Test43 {
         p1.x = 17;
         p1.y = 35;
         p1.z = -1;
+        //System.out.println(p1);       //Point(17,35,-1)
 
         Point p2 = new Point();
         p2.x = 19;
@@ -33,6 +34,6 @@ public class Test43 {
  * Note: p1.x and p2.x don't cause any compilation error but as this syntax
  * creates confusion,
  * so it is not a good practice to access the static variables or static
- * methodsusing reference variable,
- * instead class name should be used. Point.x is the preferred syntax.
+ * methods using reference variable, instead class name should be used. 
+ * Point.x is the preferred syntax.
  */

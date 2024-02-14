@@ -6,6 +6,111 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainJson",
+            "request": "launch",
+            "mainClass": "lesson7.example4.JsonFile.MainJson",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "ReadJson",
+            "request": "launch",
+            "mainClass": "lesson7.example4.JsonFile.ReadJson",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "ReadJson",
+            "request": "launch",
+            "mainClass": "lesson7.example4.ReadJson",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "ReadFile",
+            "request": "launch",
+            "mainClass": "lesson7.example4.ReadFile",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "CountWords",
+            "request": "launch",
+            "mainClass": "lesson7.example4.CountWords",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson7.example4.Main",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "readFile",
+            "request": "launch",
+            "mainClass": "lesson7.example4.readFile",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson7.example1.Main",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "DeserializationExample",
+            "request": "launch",
+            "mainClass": "lesson7.example1.DeserializationExample",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "SocketClientExample",
+            "request": "launch",
+            "mainClass": "lesson7.example3.SocketClientExample",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "SocketServerExample",
+            "request": "launch",
+            "mainClass": "lesson7.example3.SocketServerExample",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson7.question1.example2.Main",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson7.question1.Main",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test42",
+            "request": "launch",
+            "mainClass": "lesson4.quiz2.Test42",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test44",
+            "request": "launch",
+            "mainClass": "lesson4.quiz2.Test44",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
             "name": "Test28",
             "request": "launch",
             "mainClass": "lesson4.quiz2.Test28.Test28",
