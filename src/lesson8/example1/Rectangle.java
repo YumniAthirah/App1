@@ -1,23 +1,23 @@
 package lesson8.example1;
 
-public class Rectangle implements Shape{
+public class Rectangle extends Border implements Shape{
 
-    private double length;
+    private double height;
     private double width;
 
-    public Rectangle(double length, double width){
-        this.length = length;
+    public Rectangle(double height, double width){
+        this.height = height;
         this.width = width;
     }
     
     @Override
     public double calculateArea() {
-        return length * width;
+        return height * width;
     }
 
     @Override
     public double calculatePerimeter() {
-        return 2 * (length + width);
+        return 2 * (height + width);
     }
     
 }

@@ -1,6 +1,6 @@
 package lesson8.example1;
 
-public class Circle extends Border implements Shape, Fill{
+public class Circle extends Border implements Shape, Filler{
 
     private double radius;
 
@@ -20,9 +20,7 @@ public class Circle extends Border implements Shape, Fill{
 
     @Override
     public boolean fillable() {
-        return true;
-    }
-
-
-    
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'fillable'");
+    }    
 }

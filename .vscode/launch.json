@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Assignment.Assignment5.A13.Main",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "WebScrapper",
+            "request": "launch",
+            "mainClass": "Assignment.Assignment4.WebScrapper",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson8.example1.Main",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
             "name": "MainFileCopying",
             "request": "launch",
             "mainClass": "lesson7.example4.CopyingFile.MainFileCopying",

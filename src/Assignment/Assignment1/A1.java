@@ -1,6 +1,6 @@
-package Assignment;
+package Assignment.Assignment1;
 
-public class Assignment1 {
+public class A1 {
     public static void main(String[] args) {
 
         //Demonstrate passing arguments to the main method

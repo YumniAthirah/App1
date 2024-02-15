@@ -1,5 +1,5 @@
 package lesson8.example1;
 
-public interface Fill {
+public interface Filler {
     boolean fillable();
 }
