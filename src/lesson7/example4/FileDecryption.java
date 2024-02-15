@@ -15,9 +15,9 @@ public class FileDecryption {
 
     public void decrypted() throws IOException{
         Scanner scanner = new Scanner(System.in);
-        int shift = 5;
+        int shift = 3;
 
-        System.out.println("Please enter the file that need to be encrypted: ");
+        System.out.println("Please enter the file that need to be decrypted: ");
         this.fileName = scanner.nextLine();
 
         BufferedReader reader = new BufferedReader(new FileReader(fileName));

@@ -11,13 +11,11 @@ public class FileEncryption {
     private String fileName, encryptedFileName;
     private String line;
 
-    public FileEncryption(){
-
-    }
+    public FileEncryption(){} //constructor
 
     public void encrypted() throws IOException{
         Scanner scanner = new Scanner(System.in);
-        int shift = 5;
+        int shift = 3;
 
         System.out.println("Please enter the file that need to be encrypted: ");
         this.fileName = scanner.nextLine();

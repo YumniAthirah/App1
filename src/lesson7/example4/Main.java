@@ -1,5 +1,6 @@
 package lesson7.example4;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 
@@ -7,8 +8,8 @@ public class Main {
     static String filename = "example4.txt";
     static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
-        // Read file & print the file
+    public static void main(String[] args) throws IOException {
+        /* // Read file & print the file
         ReadFile readFile = new ReadFile(filename);
         readFile.printFile();
         // Count words
@@ -29,5 +30,11 @@ public class Main {
         //Pattern Matching
         PatternMatch patternMatch = new PatternMatch();
         patternMatch.patternMatcher();
+        //File Encrypting
+        FileEncryption encryptFile = new FileEncryption();
+        encryptFile.encrypted(); */
+        //File Decrypting
+        FileDecryption decryptFile = new FileDecryption();
+        decryptFile.decrypted();
     }
 }

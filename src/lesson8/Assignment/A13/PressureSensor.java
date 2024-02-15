@@ -12,9 +12,9 @@ public class PressureSensor implements Sensor{
     @Override
     public void calibrate() {
         double calibrated = pressure - offset;
+        System.out.println("The sensor is calibrated");
         System.out.printf("Calibrated pressure: %.1fC\n", calibrated);
         System.out.printf("Offset: %.1fPa\n", offset);
-        System.out.println("The sensor is calibrated");
     }
     
 }

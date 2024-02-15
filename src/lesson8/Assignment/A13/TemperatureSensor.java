@@ -12,9 +12,9 @@ public class TemperatureSensor implements Sensor{
     @Override
     public void calibrate() {
         double calibrated = temp - offset;
+        System.out.println("The sensor is calibrated");
         System.out.printf("Calibrated temperature: %.1fC\n", calibrated);
         System.out.printf("Offset: %.1fC\n", offset);
-        System.out.println("The sensor is calibrated");
     }
     
 }
