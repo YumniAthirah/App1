@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainFileCopying",
+            "request": "launch",
+            "mainClass": "lesson7.example4.CopyingFile.MainFileCopying",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "MainPatternMatch",
+            "request": "launch",
+            "mainClass": "lesson7.example4.PatternMatching.MainPatternMatch",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "ReadURL",
+            "request": "launch",
+            "mainClass": "lesson7.example4.ReadURL",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson7.example4.SearchingWords.Main",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
             "name": "MainJson",
             "request": "launch",
             "mainClass": "lesson7.example4.JsonFile.MainJson",

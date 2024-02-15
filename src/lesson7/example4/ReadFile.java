@@ -29,7 +29,7 @@ public class ReadFile extends ReadFileHandler{
         BufferedReader reader = null;
         Path filePath = Paths.get(super.getFilename());
         try {
-            reader = new BufferedReader(new FileReader(filename));
+            reader = new BufferedReader(new FileReader(filePath.toString()));
         } catch (IOException e) {
             e.printStackTrace();
         }

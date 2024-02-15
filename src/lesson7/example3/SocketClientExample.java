@@ -10,7 +10,7 @@ import java.net.UnknownHostException;
 public class SocketClientExample {
     public static void main(String[] args) throws UnknownHostException, 
     IOException, ClassNotFoundException, InterruptedException{
-        String serverAddress = "127.0.0.1";
+        //String serverAddress = "127.0.0.1";
         int port = 8080;
 
         InetAddress host = InetAddress.getLocalHost();
