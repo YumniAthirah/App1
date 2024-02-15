@@ -8,6 +8,8 @@ public class GenericSorter<T> {
     }
 
     // Quicksort algorithm implementation
+    // Quicksort algorithm takes an array of values, chooses one of the values as the 'pivot' element, 
+    //and moves the other values so that lower values are on the left of the pivot element, and higher values are on the right of it.
     private void quicksort(T[] array, Comparator<T> comparator, int low, int high) {
         if (low < high) {
             int partitionIndex = partition(array, comparator, low, high);
@@ -34,19 +36,4 @@ public class GenericSorter<T> {
         array[i] = array[j];
         array[j] = temp;
     }
-
-    public static void main(String[] args) {
-        // Example usage with Integer array
-        Integer[] intArray = {3, 1, 5, 2, 4};
-        GenericSorter<Integer> intSorter = new GenericSorter<>();
-        intSorter.sort(intArray, Comparator.naturalOrder());
-        System.out.println("Sorted Integer Array: " + java.util.Arrays.toString(intArray));
-        
-        // Example usage with String array
-        String[] stringArray = {"banana", "apple", "grape", "orange"};
-        GenericSorter<String> stringSorter = new GenericSorter<>();
-        stringSorter.sort(stringArray, Comparator.naturalOrder());
-        System.out.println("Sorted String Array: " + java.util.Arrays.toString(stringArray));
-    }
-
 }

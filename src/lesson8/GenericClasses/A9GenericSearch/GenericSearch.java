@@ -30,22 +30,4 @@ public class GenericSearch<T> {
         }
         return -1; // Return -1 if key is not found
     }
-
-    public static void main(String[] args) {
-        // Example usage with Integer array
-        Integer[] intArray = {1, 3, 5, 7, 9, 11};
-        GenericSearch<Integer> intSearch = new GenericSearch<>();
-        int linearResult = intSearch.linearSearch(intArray, 7, Comparator.naturalOrder());
-        int binaryResult = intSearch.binarySearch(intArray, 7, Comparator.naturalOrder());
-        System.out.println("Linear Search (Integer): Index of 7 is " + linearResult);
-        System.out.println("Binary Search (Integer): Index of 7 is " + binaryResult);
-
-        // Example usage with String array
-        String[] stringArray = {"apple", "banana", "grape", "orange"};
-        GenericSearch<String> stringSearch = new GenericSearch<>();
-        int linearStringResult = stringSearch.linearSearch(stringArray, "banana", Comparator.naturalOrder());
-        int binaryStringResult = stringSearch.binarySearch(stringArray, "banana", Comparator.naturalOrder());
-        System.out.println("\nLinear Search (String): Index of 'banana' is " + linearStringResult);
-        System.out.println("Binary Search (String): Index of 'banana' is " + binaryStringResult);
-    }
 }
