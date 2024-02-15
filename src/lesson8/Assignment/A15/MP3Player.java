@@ -11,17 +11,17 @@ public class MP3Player implements MusicPlayer {
 
     @Override
     public void pause() {
-        System.out.println("Pausing track on MP3 player.");
+        System.out.println("Pausing: " + playlist[currentsongIndex]);
     }
 
     @Override
     public void next() {
         currentsongIndex++;
-        if (currentsongIndex < playlist.length) {
+        if (currentsongIndex > playlist.length) {
+            System.out.println("Track ended.");
+        } else {
             System.out.println("Playing next track on MP3 player.");
             System.out.println("Playing: " + playlist[currentsongIndex]);
-        } else {
-            System.out.println("Track ended.");
         }
 
     }
@@ -29,11 +29,11 @@ public class MP3Player implements MusicPlayer {
     @Override
     public void previous() {
         currentsongIndex--;
-        if (currentsongIndex > playlist.length) {
-        System.out.println("Playing previous track on MP3 player.");
-            System.out.println("Playing: " + playlist[currentsongIndex]);
+        if (currentsongIndex < 0) {
+            System.out.println("No previous song.");
         } else {
-            System.out.println("Track ended.");
+            System.out.println("Playing previous track on MP3 player.");
+            System.out.println("Playing: " + playlist[currentsongIndex]);
         }
     }
 

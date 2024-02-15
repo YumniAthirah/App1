@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainMessage",
+            "request": "launch",
+            "mainClass": "lesson8.Assignment.A9.MainMessage",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "MainPayment",
+            "request": "launch",
+            "mainClass": "lesson8.Assignment.A8.MainPayment",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "MainShapeSort",
+            "request": "launch",
+            "mainClass": "lesson8.Assignment.A7.MainShapeSort",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "MainEmployee",
+            "request": "launch",
+            "mainClass": "lesson8.Assignment.A6.MainEmployee",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "MainAnimal",
+            "request": "launch",
+            "mainClass": "lesson8.Assignment.A5.MainAnimal",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson8.Assignment.A2.Main",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "lesson8.Assignment.A1ShapeHierarchy.Main",
