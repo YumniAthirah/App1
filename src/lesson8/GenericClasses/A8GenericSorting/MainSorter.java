@@ -9,11 +9,16 @@ public class MainSorter {
         GenericSorter<Integer> intSorter = new GenericSorter<>();
         intSorter.sort(intArray, Comparator.naturalOrder());
         System.out.println("Sorted Integer Array: " + java.util.Arrays.toString(intArray));
+        intSorter.sort(intArray, Comparator.reverseOrder());
+        System.out.println("Sorted Integer Array in reverse: " + java.util.Arrays.toString(intArray));
         
         // String array
         String[] stringArray = {"Tokyo", "Shiga", "Himeji", "Hokkaido"};
         GenericSorter<String> stringSorter = new GenericSorter<>();
         stringSorter.sort(stringArray, Comparator.naturalOrder());
         System.out.println("Sorted String Array: " + java.util.Arrays.toString(stringArray));
+        stringSorter.sort(stringArray, Comparator.reverseOrder());
+        System.out.println("Sorted String Array in reverse: " + java.util.Arrays.toString(stringArray));
+
     }
 }

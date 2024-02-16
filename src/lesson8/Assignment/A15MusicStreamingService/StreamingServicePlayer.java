@@ -20,7 +20,7 @@ public class StreamingServicePlayer implements MusicPlayer{
         if (currentepIndex > showlist.length - 1) {
             System.out.println("Show ended.");
         } else {
-            System.out.println("Playing next track on MP3 player.");
+            System.out.println("Playing next show.");
             System.out.println("Playing: " + showlist[currentepIndex]);
         }
     }
@@ -31,7 +31,7 @@ public class StreamingServicePlayer implements MusicPlayer{
         if (currentepIndex < 0) {
             System.out.println("No previous episode.");
         } else {
-            System.out.println("Playing previous track on MP3 player.");
+            System.out.println("Playing previous show.");
             System.out.println("Playing: " + showlist[currentepIndex]);
         }
     }

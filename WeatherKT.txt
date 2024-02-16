@@ -1,0 +1,4 @@
+[Kuala Terengganu]
+Temperature : 31
+Humidity : 77
+

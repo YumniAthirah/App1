@@ -12,9 +12,9 @@ public class GenericSorter<T> {
     //and moves the other values so that lower values are on the left of the pivot element, and higher values are on the right of it.
     private void quicksort(T[] array, Comparator<T> comparator, int low, int high) {
         if (low < high) {
-            int partitionIndex = partition(array, comparator, low, high);
-            quicksort(array, comparator, low, partitionIndex - 1);
-            quicksort(array, comparator, partitionIndex + 1, high);
+            int pivotIndex = partition(array, comparator, low, high);
+            quicksort(array, comparator, low, pivotIndex - 1);
+            quicksort(array, comparator, pivotIndex + 1, high);
         }
     }
 
