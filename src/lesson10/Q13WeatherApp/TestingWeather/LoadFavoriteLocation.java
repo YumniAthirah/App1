@@ -1,4 +1,4 @@
-package lesson10.Q13WeatherApp.WeatherApp;
+package lesson10.Q13WeatherApp.TestingWeather;
 
 import java.io.BufferedReader;
 import java.io.File;
