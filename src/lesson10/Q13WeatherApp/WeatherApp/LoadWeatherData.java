@@ -24,12 +24,12 @@ public class LoadWeatherData {
             String line;
             while ((line = reader.readLine()) != null) {
                 if (line.startsWith("[") && line.endsWith("]")) {
-                    //String city = line.substring(1, line.length() - 1);
+                    String city = line.substring(1, line.length() - 1);
                     String tempLine = reader.readLine().trim();
                     String humLine = reader.readLine().trim();
                     double temperature = Double.parseDouble(tempLine.substring(tempLine.indexOf(":") + 2));
                     double humidity = Double.parseDouble(humLine.substring(humLine.indexOf(":") + 2));
-                    //weatherLocation.setText(city);
+                    weatherLocation.setText("[" + city + "]");
                     temperatureLabel.setText("Temperature: " + temperature + " °C");
                     humidityLabel.setText("Humidity: " + humidity + "%");
                 }
