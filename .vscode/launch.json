@@ -6,6 +6,104 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExpenseTrackerApp",
+            "request": "launch",
+            "mainClass": "lesson9.Q14example.ExpenseTrackerApp",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "WAdropdown",
+            "request": "launch",
+            "mainClass": "lesson10.Q13WeatherApp.WeatherApp.WAdropdown",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "MainWeather",
+            "request": "launch",
+            "mainClass": "lesson10.Q13WeatherApp.WeatherApp.MainWeather",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "WeatherAppOri",
+            "request": "launch",
+            "mainClass": "lesson10.Q13WeatherApp.WeatherAppOri",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "MainTransfer",
+            "request": "launch",
+            "mainClass": "lesson8.Assignment.A12BankingSystemwithTransactions.MainTransfer",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "TicTacToeGame",
+            "request": "launch",
+            "mainClass": "lesson9.Q10TicTacToeGame.TicTacToeGame",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "CalendarApp2",
+            "request": "launch",
+            "mainClass": "lesson9.example.Q12CalendarApp.CalendarApp2",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "CalendarApp",
+            "request": "launch",
+            "mainClass": "lesson9.example.Q12CalendarApp.CalendarApp",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "TicTacToeGame",
+            "request": "launch",
+            "mainClass": "lesson9.example.Q10TicTacToeGame.TicTacToeGame",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "MainMatrix",
+            "request": "launch",
+            "mainClass": "lesson8.GenericClasses.A5GenericMatrix.MainMatrix",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "TicTacToe",
+            "request": "launch",
+            "mainClass": "lesson9.example.Q10TicTacToeGame.TicTacToe",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "FileExplorerApp",
+            "request": "launch",
+            "mainClass": "lesson9.example.Q6FileExplorerApp.FileExplorerApp",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "QuizApplication",
+            "request": "launch",
+            "mainClass": "lesson9.Q11QuizApplication.QuizApplication",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "ToDoListManager",
+            "request": "launch",
+            "mainClass": "lesson9.example.Q3ToDoListManager.ToDoListManager",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
             "name": "GPT3APP",
             "request": "launch",
             "mainClass": "lesson9.testing.GPT3APP",

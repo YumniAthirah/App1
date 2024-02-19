@@ -42,13 +42,13 @@ public class SavingsAccount implements BankAccount{
     public void transfer(BankAccount toAccount, double amount) {
         withdraw(amount);
         toAccount.deposit(amount);
-        //transactions.add(String.format("Transfer to %s: RM %"))
+        transactions.add(String.format("Transfer to %s: RM %.2f", toAccount, amount));
     }
 
     @Override
     public List<String> getTransactionHistory() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getTransactionHistory'");
+        return transactions;
     }
+
     
 }

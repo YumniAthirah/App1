@@ -34,6 +34,8 @@ public class Main {
         checkingAccount.withdraw(wdraw);
         System.out.print("\nChecking Account Balance: RM" + checkingAccount.getBalance());
 
+        sc.close();
+
     }
     
 }
