@@ -24,9 +24,22 @@ public class Test13 {
 
         //[x]
         // horse.ride("EMMA");
+        // Variable 'horse' is of Animal type and ride(String) method is not defined in Animal class
+
         // (Horse)horse.ride("EMMA");
+        // horse.ride("EMMA") will be evaluated first as dot (.) operator has higher precedence than cast. 
+        // horse.ride("EMMA") returns void, hence it cannot be casted to Horse type
+
         // (Rideable)(Horse)horse.ride("EMMA");
+        // horse.ride("EMMA") will be evaluated first as dot (.) operator has higher precedence than cast. 
+        // horse.ride("EMMA") returns void, hence it cannot be casted to Rideable type
+
         // (Rideable)horse.ride("emma");
+        // horse.ride("EMMA") will be evaluated first as dot (.) operator has higher precedence than cast. 
+        // horse.ride("EMMA") returns void, hence it cannot be casted to Horse type
+
         // (Horse)(Rideable)horse.ride("EMMA");
+        // horse.ride("EMMA") will be evaluated first as dot (.) operator has higher precedence than cast. 
+        // horse.ride("EMMA") returns void, hence it cannot be casted to Rideable type.
     }
 }

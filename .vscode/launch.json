@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test23",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.exception.Test23",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
             "name": "Test19",
             "request": "launch",
             "mainClass": "Quiz.exam4.Test19",
