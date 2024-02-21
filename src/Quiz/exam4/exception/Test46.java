@@ -18,7 +18,7 @@ abstract class Sub extends Super{
     //[x]List<B> is not subtype of List<A>
     
     //abstract ArrayList<A> get() throws Exception;   
-    //[x]overriding method is not allowed t declare checked Exception
+    //[x]overriding method is not allowed to declare checked Exception
     //[x]Class Exception and its subclasses are checked exceptions
 
     //abstract List<B> get();

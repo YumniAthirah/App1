@@ -22,6 +22,9 @@ public class Test31 {
     }
 }
 
-// 1. If return type of overridden method is of primitive type, then overriding method should use same primitive type.
-// 2. If return type of overridden method is of reference type, then overriding method can use same reference type or 
-// its sub-type (also known as covariant return type).
+// 1. If return type of overridden method is of primitive type, ...
+// ...then overriding method should use [same] primitive type.
+
+// 2. If return type of overridden method is of reference type, ...
+// ...then overriding method can use same reference type or ...
+// ...its sub-type (also known as covariant return type).

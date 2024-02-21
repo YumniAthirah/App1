@@ -19,6 +19,10 @@ public class Test24 {
         }
     }
 }
+// Replace Line 14 with 'catch(IllegalArgumentException | Exception e) {'
+// Replace Line 14 with 'catch(IllegalArgumentException | RuntimeException e) {'
+// Replace Line 14 with 'catch(RuntimeException | Exception e) {'
+// Comment out Line 14, Line 15 and Line 16
 
 // In multi-catch statement, classes with multi-level hierarchical relationship can't be used.
 

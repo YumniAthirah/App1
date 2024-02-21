@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test32",
+            "request": "launch",
+            "mainClass": "Quiz.quiz2.Test32",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test13",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.Test13",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test50",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.Test50",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test44",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.Test44",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test49",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.Test49",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test47",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.Test47",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test6",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.Test6",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
             "name": "Test23",
             "request": "launch",
             "mainClass": "Quiz.exam4.exception.Test23",

@@ -1,4 +1,4 @@
-package Quiz.exam4.exception;
+package Quiz.exam4;
 
 import java.io.IOException;
 
