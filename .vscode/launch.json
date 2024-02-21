@@ -6,6 +6,132 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test19",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.Test19",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test27",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.Test27",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test31",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.Test31",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test43",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.Test43.Test43",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test54",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.exception.Test54",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test65",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.Test65",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "ThreadMonitoring",
+            "request": "launch",
+            "mainClass": "lesson11.ThreadMonitoring",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "SimpleThread",
+            "request": "launch",
+            "mainClass": "lesson11.SimpleThread",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Lambda",
+            "request": "launch",
+            "mainClass": "lesson11.Lambda",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test34",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.exception.Test34",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test69",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.exception.Test69",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test45",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.exception.Test45",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test2",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.Test2",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test24",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.exception.Test24",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "WeatherAppGUI",
+            "request": "launch",
+            "mainClass": "lesson10.copyWeatherApp.WeatherAppGUI",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "WeatherAppGUIACTION",
+            "request": "launch",
+            "mainClass": "lesson10.copyWeatherApp.WeatherAppGUIACTION",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "MainWeather",
+            "request": "launch",
+            "mainClass": "lesson10.copyWeatherApp.MainWeather",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lesson10.exampleExpenses.Main",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
             "name": "ExpenseTrackerApp",
             "request": "launch",
             "mainClass": "lesson9.Q14example.ExpenseTrackerApp",

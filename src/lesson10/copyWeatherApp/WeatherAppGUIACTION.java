@@ -1,15 +1,14 @@
-package lesson10.Q13WeatherApp.WeatherApp;
+package lesson10.copyWeatherApp;
 
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.sql.Date;
 
 import javax.swing.*;
 
-public class WeatherAppGUI extends JFrame {
+public class WeatherAppGUIACTION extends JFrame {
     private JLabel weatherTitle;
     private JLabel chooseLocation;
     private JComboBox<String> locationList;
@@ -21,7 +20,7 @@ public class WeatherAppGUI extends JFrame {
     public JLabel loadFavButton;
 
 
-    public WeatherAppGUI() {
+    public WeatherAppGUIACTION() {
         setTitle("Weather");
         setSize(500, 250);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -36,10 +35,8 @@ public class WeatherAppGUI extends JFrame {
         // location Panel
         JPanel locationPanel = new JPanel();
         chooseLocation = new JLabel("Choose Location : ");
-
+        
         String[] favoritedLocation = { "No Favorited Location" };
-        WeatherService weatherService = new WeatherService();
-        favoritedLocation[0] = weatherService.getlatestLocation();
         JButton loadFavButton = new JButton(favoritedLocation[0]);
 
         String[] locations = { "Kuala Terengganu", "Kuala Lumpur", "Kota Bharu" };
@@ -110,11 +107,11 @@ public class WeatherAppGUI extends JFrame {
             favoritedLocation[0] = (String) locationList.getSelectedItem();
             loadFavButton.setText(favoritedLocation[0]); 
 
-            String favlocName = favoritedLocation[0];
+            /* String favlocName = favoritedLocation[0];
             String date = "2024-02-24";
             WeatherService weatherService = new WeatherService();
             Location location = new Location(0, favlocName, Date.valueOf(date));
-            weatherService.insert(location);
+            weatherService.insert(location); */
         }
 
     }
@@ -132,5 +129,12 @@ public class WeatherAppGUI extends JFrame {
                     humidityLabel);
         }
 
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            WeatherAppGUIACTION app = new WeatherAppGUIACTION();
+            app.setVisible(true);
+        });
     }
 }
