@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Truck",
+            "request": "launch",
+            "mainClass": "lesson13.example.Truck",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test18",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.Test18",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test8",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.Test8",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test40",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.Test40",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test39",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.Test39",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test37",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.Test37",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test22",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.Test22.Test22",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
+            "name": "Test20",
+            "request": "launch",
+            "mainClass": "Quiz.exam4.Test20",
+            "projectName": "App1_4615083"
+        },
+        {
+            "type": "java",
             "name": "Test32",
             "request": "launch",
             "mainClass": "Quiz.quiz2.Test32",
@@ -37,6 +93,9 @@
             "name": "Test49",
             "request": "launch",
             "mainClass": "Quiz.exam4.Test49",
+            "args": [
+                "10"
+            ],
             "projectName": "App1_4615083"
         },
         {
